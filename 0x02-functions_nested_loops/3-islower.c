@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - check the code.
- *
- * Return: 1 if lower, 0 otherwise
-*/
+ * _islower - print 1 or 0 depending on input
+ * @c: first parameter
+ * Description: lower letter only
+ * Return: 0
+ */
 
-int _islower(void)
+int _islower(int c)
 {
-	int c;
-
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	return (c >= 'a' && c <= 'z');
 }
